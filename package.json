@@ -1,0 +1,26 @@
+{
+  "name": "alpha2-countries",
+  "version": "1.0.0",
+  "description": "ISO 3166-1 alpha-2 country names and codes",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slatkovic/alpha2-countries.git"
+  },
+  "keywords": [
+    "ISO",
+    "3166-1",
+    "alpha-2",
+    "countries",
+    "country"
+  ],
+  "author": "https://github.com/slatkovic",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/slatkovic/alpha2-countries/issues"
+  },
+  "homepage": "https://github.com/slatkovic/alpha2-countries#readme",
+  "engines" : {
+    "node" : ">=6.0.0"
+  }
+}
