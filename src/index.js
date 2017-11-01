@@ -1,4 +1,4 @@
-var data = require('../data/countries.json')
+const data = require('../data/countries.json');
 
 const resolveName = (countryCode) => {
   const country = data.find(({ code }) => code === countryCode);
@@ -10,7 +10,7 @@ const resolveCode = (countryName) => {
   return country ? country.code : undefined;
 }
 
-const getNameCodePairs = () => data
+const getNameCodePairs = () => data;
 
 module.exports = {
   resolveName,
